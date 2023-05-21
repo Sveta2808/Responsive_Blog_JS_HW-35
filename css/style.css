@@ -60,11 +60,13 @@ haeder {
     justify-content: space-between;
     padding: 18px 0;
 }
-.logo{
+
+.logo {
     font-size: 1.5 rem;
     font-weight: 600;
     color: var(--text-color);
 }
+
 .login {
     padding: 8px 14px;
     text-transform: uppercase;
@@ -73,11 +75,13 @@ haeder {
     background: var(--second-color);
     color: var(--bg-color);
 }
+
 .login:hover {
     background: hsl(340, 98%, 58%);
     transition: 0.3s;
 }
-.home{
+
+.home {
     width: 100%;
     min-height: 440px;
     background: var(--container-color);
@@ -85,15 +89,42 @@ haeder {
     justify-content: center;
     align-items: center;
 }
-.home-text{
+
+.home-text {
     color: var(--bg-color);
     text-align: center;
 }
-.home-title{
+
+.home-title {
     font-size: 3.5rem;
 
 }
-.home-subtitle{
+
+.home-subtitle {
     font-size: 1 rem;
     font-weight: 400;
+}
+
+.post-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 2rem !important;
+
+}
+
+.filter-item {
+    font-size: 0.9 rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.active-filter {
+    background: var(--second-color);
+    color: var(--bg-color);
+    padding: 4px 10px;
+    border-radius: 4px;
+
+
 }
