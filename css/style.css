@@ -128,3 +128,15 @@ haeder {
 
 
 }
+
+.user-name{
+    font-size: 1.5 rem;
+    font-weight: 400;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+   margin-top: 20px;
+   cursor: pointer;
+}
